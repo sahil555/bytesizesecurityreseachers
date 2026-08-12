@@ -197,7 +197,8 @@ export default function App() {
           ))}
         </nav>
 
-        <button type="button" className="nav-cta" href="https://www.linkedin.com/company/bytesize-security-researchers">
+          {/* need to add redirection link for the button */}
+        <button type="button" className="nav-cta" onClick={() => window.open('https://www.linkedin.com/company/bytesize-security-researchers', '_blank')}>
           Join Research Hub
         </button>
       </header>
@@ -331,7 +332,9 @@ export default function App() {
             <p>
               As automated code generation, quantum cryptographic demands, and global supply chains expand, ByteSize remains committed to staying ahead of the curve.
             </p>
-            <button type="button" className="vision-button">Contribute to Research</button>
+            <button type="button" className="vision-button" onClick={() => window.open('https://www.reddit.com/r/bytesizesecurity', '_blank')}>
+              Contribute to Research
+            </button>
           </aside>
         </section>
       </main>
