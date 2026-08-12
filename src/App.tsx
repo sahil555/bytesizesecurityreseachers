@@ -197,7 +197,9 @@ export default function App() {
           ))}
         </nav>
 
-        <button type="button" className="nav-cta">Join Research Hub</button>
+        <button type="button" className="nav-cta" href="https://www.linkedin.com/company/bytesize-security-researchers">
+          Join Research Hub
+        </button>
       </header>
 
       <main className="page-content">
